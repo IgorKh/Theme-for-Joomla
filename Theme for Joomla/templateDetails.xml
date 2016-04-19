@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+    <name>z</name>
+    <creationDate>2014-12-30</creationDate>
+    <author>Igor Khatybov</author>
+    <authorEmail>igor@khatibov.com</authorEmail>
+    <authorUrl>http://www.khatibov.com</authorUrl>
+    <copyright>Igor Khatybov 2014</copyright>
+    <license>GNU/GPL</license>
+    <version>1.0.2</version>
+    <description>Template for z</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+    </files>
+    <positions>
+        <position>search</position>
+        <position>search-footer</position>
+        <position>menu-main</position>
+        <position>contact-form</position>
+		<position>news</position>
+    </positions>
+    <config>
+        <fields name='params'>
+            <fieldset
+                    name='general'
+                    label="Общие настройки">
+                <field
+                        name="site-logo"
+                        type="media"
+                        label="Логотип:"/>
+                <field
+                        name="site-description"
+                        type="text"
+                        label="Описание сайта:"/>
+                <field
+                        name="site-phone"
+                        type="text"
+                        label="Телефон:"/>
+                <field
+                        name="site-skype"
+                        type="text"
+                        label="Skype:"/>
+                <field
+                        name="site-email"
+                        type="text"
+                        label="Email:"/>
+                <field
+                        name="site-copyright"
+                        type="text"
+                        label="Копирайт (в подвале):"/>
+            </fieldset>
+            <fieldset
+                    name='slideshow'
+                    label="Слайдшоу">
+                <!-- SLIDE 1-->
+                <field
+                        name="slide1"
+                        type="note"
+                        class="alert alert-info"
+                        label="Первый слайд"/>
+                <field
+                        name="slide1-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide1-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide1-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide1-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 2-->
+                <field
+                        name="slide2"
+                        type="note"
+                        class="alert alert-info"
+                        label="Второй слайд"/>
+                <field
+                        name="slide2-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide2-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide2-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide2-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 3-->
+                <field
+                        name="slide3"
+                        type="note"
+                        class="alert alert-info"
+                        label="Третий слайд"/>
+                <field
+                        name="slide3-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide3-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide3-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide3-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 4-->
+                <field
+                        name="slide4"
+                        type="note"
+                        class="alert alert-info"
+                        label="Четвертый слайд"/>
+                <field
+                        name="slide4-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide4-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide4-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide4-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 5-->
+                <field
+                        name="slide5"
+                        type="note"
+                        class="alert alert-info"
+                        label="Пятый слайд"/>
+                <field
+                        name="slide5-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide5-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide5-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide5-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 6-->
+                <field
+                        name="slide6"
+                        type="note"
+                        class="alert alert-info"
+                        label="Шестой слайд"/>
+                <field
+                        name="slide6-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide6-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide6-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide6-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 7-->
+                <field
+                        name="slide7"
+                        type="note"
+                        class="alert alert-info"
+                        label="Седьмой слайд"/>
+                <field
+                        name="slide7-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide7-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide7-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide7-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 8-->
+                <field
+                        name="slide8"
+                        type="note"
+                        class="alert alert-info"
+                        label="Восьмой слайд"/>
+                <field
+                        name="slide8-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide8-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide8-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide8-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 9-->
+                <field
+                        name="slide9"
+                        type="note"
+                        class="alert alert-info"
+                        label="Девятый слайд"/>
+                <field
+                        name="slide9-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide9-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide9-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide9-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- SLIDE 10-->
+                <field
+                        name="slide10"
+                        type="note"
+                        class="alert alert-info"
+                        label="Десятый слайд"/>
+                <field
+                        name="slide10-img"
+                        type="media"
+                        label="Изображение:"/>
+                <field
+                        name="slide10-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="slide10-text"
+                        type="textarea"
+                        label="Описание:"/>
+                <field
+                        name="slide10-page"
+                        type="menuitem"
+                        label="Куда ссылается слайд?"/>
+                <!-- OTHER-->
+                <field
+                        name="slide-other"
+                        type="note"
+                        class="alert alert-info"
+                        label="Другие настройки"/>
+                <field
+                        name="slide-next"
+                        type="text"
+                        label="Надпись 'подробнее':"/>
+            </fieldset>
+            <fieldset
+                    name='blocks'
+                    label="Блоки с флагами">
+                <!-- BLOCK 1-->
+                <field
+                        name="block1"
+                        type="note"
+                        class="alert alert-info"
+                        label="Первый блок"/>
+                <field
+                        name="block1-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block1-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block1-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block1-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 2-->
+                <field
+                        name="block2"
+                        type="note"
+                        class="alert alert-info"
+                        label="Второй блок"/>
+                <field
+                        name="block2-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block2-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block2-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block2-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 3-->
+                <field
+                        name="block3"
+                        type="note"
+                        class="alert alert-info"
+                        label="Третий блок"/>
+                <field
+                        name="block3-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block3-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+
+                <field
+                        name="block3-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block3-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 4-->
+                <field
+                        name="block4"
+                        type="note"
+                        class="alert alert-info"
+                        label="Четвертый блок"/>
+                <field
+                        name="block4-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block4-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block4-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block4-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 5-->
+                <field
+                        name="block5"
+                        type="note"
+                        class="alert alert-info"
+                        label="Пятый блок"/>
+                <field
+                        name="block5-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block5-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block5-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block5-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 6-->
+                <field
+                        name="block6"
+                        type="note"
+                        class="alert alert-info"
+                        label="Шестой блок"/>
+                <field
+                        name="block6-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block6-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block6-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block6-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 7-->
+                <field
+                        name="block7"
+                        type="note"
+                        class="alert alert-info"
+                        label="Седьмой блок"/>
+                <field
+                        name="block7-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block7-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block7-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block7-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 8-->
+                <field
+                        name="block8"
+                        type="note"
+                        class="alert alert-info"
+                        label="Восьмой блок"/>
+                <field
+                        name="block8-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block8-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+
+                <field
+                        name="block8-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block8-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- BLOCK 9-->
+                <field
+                        name="block9"
+                        type="note"
+                        class="alert alert-info"
+                        label="Девятый блок"/>
+                <field
+                        name="block9-title"
+                        type="text"
+                        label="Заголовок:"/>
+                <field
+                        name="block9-page"
+                        type="menuitem"
+                        label="Куда ссылается блок?"/>
+                <field
+                        name="block9-flag"
+                        type="media"
+                        label="Изображение флага:"/>
+                <field
+                        name="block9-background"
+                        type="media"
+                        label="Изображение фона:"/>
+                <!-- OTHER-->
+                <field
+                        name="blocks-other"
+                        type="note"
+                        class="alert alert-info"
+                        label="Другие настройки"/>
+                <field
+                        name="blocks-page"
+                        type="menuitem"
+                        label="Страница со всеми странами:"/>
+                <field
+                        name="blocks-next"
+                        type="text"
+                        label="Надпись 'Посмотреть все страны':"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
